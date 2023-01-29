@@ -1,5 +1,6 @@
 {
   "name": "escape-string-regexp-cli",
+  "version": "1.0.0",
   "type": "module",
   "bin": "bin/cli",
   "devDependencies": {
