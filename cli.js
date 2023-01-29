@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import esr from 'escape-string-regexp';
 
 if (process.argv.length != 3) {
