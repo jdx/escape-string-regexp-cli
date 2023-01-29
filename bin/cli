@@ -1,3 +1,5 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 
-node "$(dirname "$0")/../cli.js" "$@"
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+
+node "$SCRIPT_DIR/../cli.js" "$@"
