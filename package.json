@@ -1,13 +1,10 @@
 {
   "name": "escape-string-regexp-cli",
   "version": "1.0.2",
-  "bin": "bin/cli",
+  "bin": "./cli.js",
   "type": "module",
   "devDependencies": {
     "bun-types": "^0.4.0"
-  },
-  "scripts": {
-    "cli": "./bin/cli"
   },
   "dependencies": {
     "escape-string-regexp": "^5.0.0"
