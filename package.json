@@ -1,8 +1,8 @@
 {
   "name": "escape-string-regexp-cli",
   "version": "1.0.0",
-  "type": "module",
   "bin": "bin/cli",
+  "type": "module",
   "devDependencies": {
     "bun-types": "^0.4.0"
   },
@@ -10,8 +10,6 @@
     "cli": "./bin/cli"
   },
   "dependencies": {
-    "escape-string-regexp": "^5.0.0",
-    "ts-node": "^10.9.1",
-    "typescript": "^4.9.4"
+    "escape-string-regexp": "^5.0.0"
   }
 }
